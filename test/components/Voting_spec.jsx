@@ -32,6 +32,6 @@ describe('Voting', () => {
     Simulate.click(buttons[0]);
 
     expect(votedWith).to.equal('Trainspotting');
-  })
+  });
 
 })
