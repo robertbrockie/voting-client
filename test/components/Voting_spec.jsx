@@ -6,12 +6,12 @@ import {
   Simulate
 } from 'react-addons-test-utils';
 import {List} from 'immutable';
-import Voting from '../../src/components/Voting';
+import {Voting} from '../../src/components/Voting';
 import {expect} from 'chai';
 
 describe('Voting', () => {
 
-  it('reders a pair of buttons', () => {
+  it('renders a pair of buttons', () => {
     const component = renderIntoDocument(
       <Voting pair={["Trainspotting", "28 Days Later"]} />
     );
